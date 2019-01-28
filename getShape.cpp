@@ -74,11 +74,13 @@ Shape &defineShapes(string line)
 	if (nrOfcords == 0 || nrOfcords % 2 == 1)
 	{
 		cout << "That is not a shape.." << endl;
+		exit(EXIT_FAILURE);
 	}
 
 	if (nrOfcords == 0 || nrOfcords % 2 == 1)
 	{
 		cout << "That is not a shape.." << endl;
+		exit(EXIT_FAILURE);
 	}
 
 
